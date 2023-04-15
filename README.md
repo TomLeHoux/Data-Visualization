@@ -17,3 +17,10 @@
 
 [![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/tomlehoux/pen/QWZNdjr)
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](./bar-chart)
+
+# Scatterplot Graph
+
+![Scatterplot Graph](./img/scatterplot-graph.png)
+
+[![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/tomlehoux/pen/OJBNwRj)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](./scatterplot-graph)
