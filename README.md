@@ -24,3 +24,16 @@
 
 [![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/tomlehoux/pen/OJBNwRj)
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](./scatterplot-graph)
+
+# Heat Map
+
+![Scatterplot Graph](./img/heat-map.png)
+
+[![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/tomlehoux/pen/bGmeNjP)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](./heat-map/)
+
+---
+
+# Credits
+
+All patterns used in the background can be found on [Hero Patterns](https://heropatterns.com/).
