@@ -32,6 +32,13 @@
 [![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/tomlehoux/pen/bGmeNjP)
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](./heat-map/)
 
+# Treemap Diagram
+
+![Treemap Diagram](./img/treemap-diagram.png)
+
+[![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/tomlehoux/pen/MWPogeP)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](./treemap-diagram/)
+
 ---
 
 # Credits

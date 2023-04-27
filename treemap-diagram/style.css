@@ -1,0 +1,55 @@
+body {
+    background-color: #e48a8a;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23edabab' fill-opacity='0.4'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");    
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: move 50s linear infinite;
+}
+
+@keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+}
+
+h1, h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    color: #b16b6b;
+    text-shadow: 5px 5px 5px rgb(177, 107, 107, 0.5);
+}
+
+h2 {
+  color: #e79494;
+  margin-bottom: 20px;
+  font-size: 27px;
+}
+
+.container {
+    border-radius: 20px;
+    text-align: center;
+    padding: 35px;
+    margin: auto;
+    width: fit-content;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(177, 107, 107, 0.5);
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 6px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    pointer-events: none;
+  }
