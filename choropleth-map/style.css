@@ -1,0 +1,54 @@
+body {
+    background-color: #e7e5a7;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23cf3178' fill-opacity='0.13' fill-rule='evenodd'/%3E%3C/svg%3E");    display: flex;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: move 50s linear infinite;
+}
+
+@keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0 100%;
+    }
+}
+
+h1,h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 32px;
+  color: #a17f7e;
+  text-shadow: 5px 5px 5px rgba(238, 188, 187, 0.5);
+}
+
+h2 {
+  color: #c99f9e;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.container {
+    border-radius: 20px;
+    text-align: center;
+    padding: 35px;
+    margin: auto;
+    width: fit-content;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(147, 142, 155, 0.5);
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 6px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    pointer-events: none;
+  }
